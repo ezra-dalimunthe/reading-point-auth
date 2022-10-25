@@ -49,7 +49,7 @@ $ cd reading-point-auth
 $ docker-compose up --build -d
 ```
 
-5. Install library 
+5. Install library (if docker-compose run succesfully,the created  container name is __reading-point-auth-service__)
 
 ```
 $ docker exec -it reading-point-auth-service composer install
