@@ -2,8 +2,8 @@ version: "3"
 services:
   auth_service:
     build:
-      context: .
-      dockerfile: Dockerfile
+      context: ../../
+      dockerfile: _dockers/dev/Dockerfile
     image: reading-point/auth_service:v1.0
     container_name: reading-point-auth-service
     restart: unless-stopped
@@ -33,7 +33,7 @@ services:
 
     working_dir: /var/www/html
     volumes:
-      - ./:/var/www/html
+      - ../../:/var/www/html
     command: php -S auth_service:8000 -t public
     ports:
       - "8906:8000"
