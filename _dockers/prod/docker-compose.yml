@@ -57,5 +57,6 @@ services:
 networks:
   reading-point-network:
     driver: bridge
+    name: reading-point-auth-network
 volumes:
   reading-point-auth-service-db:

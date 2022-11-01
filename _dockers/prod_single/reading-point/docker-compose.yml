@@ -3,9 +3,8 @@ services:
   auth_service:
     build:
       context: ../../../
-      dockerfile: _dockers/prod_single/app/Dockerfile
+      dockerfile: _dockers/prod_single/reading-point/Dockerfile
     image: reading-point/auth_service:v1.0
-    container_name: reading-point-auth-service
     restart: unless-stopped
     tty: true
     environment:
@@ -35,11 +34,28 @@ services:
 
     command: php -S auth_service:8000 -t public
     ports:
-      - "8906:8000"
+      - "8906-8908:8000"
     networks:
-      - reading-point-network
+      - reading-point-auth-network
 
+  reading_point_db:
+    image: mariadb:10.6
+    container_name: reading-point-auth-service-db
+    volumes:
+      - reading-point-auth-service-db:/var/lib/mysql 
+    restart: unless-stopped
+    tty: true
+
+    environment:
+      MYSQL_DATABASE: reading_point_auth
+      MYSQL_ROOT_PASSWORD: unpri2022
+      SERVICE_TAGS: v1
+      SERVICE_NAME: reading_point_db
+    networks:
+      - reading-point-auth-network
 networks:
-  reading-point-network:
-    name: reading-point-network
-    external: true
+  reading-point-auth-network:
+    driver: bridge
+    name: reading-point-auth-network
+volumes:
+  reading-point-auth-service-db:
