@@ -1,1 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T23:50:50.070Z" agent="5.0 (X11)" etag="78sx9GZOXpOeSfV_7Oh4" version="20.5.1"><diagram id="W0XPu2aQFCLW2Vl4ljsa" name="Page-1">zVjbcqM4EP0aP8YFyGB4jG8ztZXszox3avYtJUMD2ghECfmS+fqVjLgKZzcZO7V5cNDpltSoz+mWPUHL7PSJ4yJ9ZBHQiWNFpwlaTRzH9zz5qYCXCpg5qAISTqIKsltgS36CBi2N7kkEZc9RMEYFKfpgyPIcQtHDMOfs2HeLGe3vWuAEDGAbYmqiP0gkUo06ltUaPgNJ0nrrwNGWDNfeGihTHLFjB0LrCVpyxkT1lJ2WQNXh1QdTzdtcsDaRccjFf5nA/GP6W7p9tPzNJqHOX4/ZLLiz/WqZA6Z7/cqf/9j+qSMWL/U5cLbPI1ArWRO0aF5FDSjeAV3g8Dk5Oy0ZZVyacpZDY2U8Aj6wxITSrd6hZFSFuSgFZ8/NSTvKi+VigzNCFYGWbM8JcBna73DURs0Z5Osl610mDoow+HFYB/GFlUQQlksbhVge2eIAXBCZ64eBWbBCWjEliRrxKruN973Gd0wIljVBd/b1Qh92sbQcUyJgW+BQRXiUAlHeckjyZKFnr+48q0UfzoGtOsg3za0721KozpYMBU4XeWA37JKyBJaB4C/SpZ4w14TUkrRdPT62BPdq/aUdbrs16bEWVdKs3dJOPmjmvYGFzsxgocHAS8lq0jDMT5XFVGQylJVdsbZQi2WnRNWq6Q6XJJxGBCdPZU6KJ34uIItz7fJuz/IOYXxnhzzP4D/6Vf674Eez67AGDViDPJM1TjDCGtu/FWs8ZJAEIlm99ZBxkbKE5ZiuW3TRL2StzwNTdDnz5G8Q4kUfK94L1mdRtafa6PWTlHHJbIXwWvGd646GeQLiFcf5eGo4UCzIoR/I1Y+5jrIjzm/rr9/XI11CriYbM1yofJ1DxGVRdeuYnCD6uI5ivUFRdt1+Ooqyzn+m0iwrCKwm9E51CiUp5PKXe01Tvup2Y8zo17MrSNnvK3k2N5WMRoSMbqVj1zeI9A5dvq1QdtIaQYz3VFV+yKN7dWdsGSWRDVFvs7KuK/1fVbSe+oURuXOTWXfWT60zrL1VpdGzBmlrwnh/Js1KUQI/kBDuJTpB6tMPLM9I93hnJiUL9zuVBvl0nydnb9v9CJUN5B3HsROGY5078nae6xl9ZXh5Q/Z1pDtzB9q1Te2ONeHgVtpF3r/f3Ixi31Ftoah4DspdTNzVWIZIdv6OZpRmja9IlsjQKdmpFyhDDPL/ioXPwKflIfnQe1zTHt7xPcYsR10S6iiucZELBhe5eTB1DRK5IySa3eyGgf6fJMICy0oET58gB46pptMVcuDWU+o6PSLjmW9mwENT23tzEuSw/ZWhKvXtbzVo/Q8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-01T06:42:26.881Z" agent="5.0 (X11)" etag="szGhDP1n5hNXYthjWRV4" version="20.5.1" type="github">
+  <diagram id="W0XPu2aQFCLW2Vl4ljsa" name="Page-1">
+    <mxGraphModel dx="866" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o8whJhSM08FFgl2XMm49-18" value="HOST" style="rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;fillStyle=solid;strokeWidth=2;fontFamily=Courier New;fontSize=38;fillColor=#dae8fc;labelPosition=left;verticalLabelPosition=top;align=right;verticalAlign=bottom;strokeColor=#6c8ebf;whiteSpace=wrap;spacingBottom=-60;spacingLeft=0;spacingRight=-100;" parent="1" vertex="1">
+          <mxGeometry x="170" y="150" width="610" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="o8whJhSM08FFgl2XMm49-24" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;shadow=0;labelBackgroundColor=none;labelBorderColor=none;fillStyle=solid;strokeColor=#82b366;strokeWidth=3;fontFamily=Courier New;fontSize=38;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="370" y="360" width="290" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="o8whJhSM08FFgl2XMm49-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="o8whJhSM08FFgl2XMm49-17" target="o8whJhSM08FFgl2XMm49-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o8whJhSM08FFgl2XMm49-17" value="REQUEST" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;labelBackgroundColor=none;labelBorderColor=none;fillStyle=solid;strokeWidth=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;fillColor=#009900;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="80" y="470" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o8whJhSM08FFgl2XMm49-58" style="orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=38;fontColor=default;endArrow=none;endFill=0;" parent="1" source="o8whJhSM08FFgl2XMm49-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8whJhSM08FFgl2XMm49-7" value="auth_service:8000" style="shape=mxgraph.basic.isocube;isoAngle=15;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;spacingRight=-31;" parent="1" vertex="1">
+          <mxGeometry x="450" y="410" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="o8whJhSM08FFgl2XMm49-36" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Docker.svg;shadow=0;labelBackgroundColor=none;labelBorderColor=none;fillStyle=solid;strokeColor=#000000;strokeWidth=2;fontFamily=Courier New;fontColor=default;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="390" y="379.5" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="o8whJhSM08FFgl2XMm49-13" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Database_General.svg;" parent="1" vertex="1">
+          <mxGeometry x="521" y="210" width="48" height="63.16" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
