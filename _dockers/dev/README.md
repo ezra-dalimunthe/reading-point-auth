@@ -10,10 +10,10 @@ For that, you need to create a new blank database on mariadb instance (prefered 
 
 
 
-![development][dev1.drawio.png]
+![development](dev1.drawio.png)
 
 ## Instalation (to be updated)
-### prepare the database.
+### Prepare the database.
 
 1. Login to database server
 ```
